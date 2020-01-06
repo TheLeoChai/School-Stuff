@@ -1,0 +1,27 @@
+functions
+displace(int s); 
+//moves the robot ¡°s¡± mm
+//positive moves forward, negative moves backward
+
+//example use: displace(1000£©£»
+//moves robot one meter forwards
+
+angularDisplacement(int theta);
+//insert in degrees (no radians)
+//positive turns clock wise and negative turns counter-clockwise
+
+
+//example: angularDisplacement(360);
+//turn the robot one cycle clock wise
+
+pickup(bool a);
+//picks up the block or drops it
+//do it when you are within the picking distance of the robot
+
+//example: pickup(true);
+//picks up the block
+
+//example: pickup(false);
+//drops the block
+
+

@@ -1,0 +1,14 @@
+window.mcwidget = {"appId":"532160876956612","pageId":"781905081848714","widgets":[{"widget_id":1944858,"page_id":"781905081848714","widget_type":"landing","status":"active","name":"Example Landing","data":{"main":{"title":"\u003Cdiv\u003E\u003Cspan style=\"text-align: inherit;\"\u003EWould you like to join our&nbsp; free online class about these TOK essay titles?&nbsp;\u003C/span\u003E\u003Cbr\u003E\u003C/div\u003E","desc":"I'll send you the details about how to sign up."}}},{"widget_id":1944859,"page_id":"781905081848714","widget_type":"button","status":"active","name":"M19 ToK Essay Titles","data":{"main":{"title":"Want to join our webinar on the May 2019 TOK Essay titles?","desc":"If so, click here and we'll send you some more information to you in FB Messenger.","showAgainIfClosed":["days","5"],"whenDisplay":["delay","6"],"allowHide":true,"slideInPlacement":"lb","fitContainer":true},"submitted":{"title":"Ok. I'll be in contact via FB Messenger.&nbsp;","desc":"Why not, right?&nbsp;","colors":{"background":"#26C6DA","headline":"#FFFFFF","buttonBackground":"#FFFFFF","buttonText":"#000000","description":"#E8F5E9"},"showDescription":false},"setup":{"urlWhitelist":"","title":"Do you want some tips on the May 2019 TOK Essay titles (and an invite to our free webinar)?","urlBlacklist":""}}}],"widgetLocale":"en_US","defaultSize":0,"fbSDKVersion":"v3.1"};
+
+
+(function(d, s, id){
+    var host = 'manychat.com/109414';
+
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = '//' + host + '/assets/js/widget.js?' + (Math.round(+new Date/1000/1800));
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'mcwidget-core'));
+
+        
